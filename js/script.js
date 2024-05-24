@@ -40,6 +40,10 @@ function getTopPosition(){
     return parseInt(ash.style.top.split("px")) || 2;
 }
 
+function verifyLookPokemon() {
+    
+}
+
 body.addEventListener("keydown", (event) => {
     event.stopPropagation();
 
